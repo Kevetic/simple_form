@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A1:Sign-Up Form</title>
+</head>
+<body>
+    <form>
+        <h1>Sign Up</h1>
+        <div class="nameContainer">
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+        </div>
+        <div class="dataContainer">
+           <input type="text" id="mnumb" name="mnumb" placeholder="Mobile No.">
+           <input type="text" id="email" name="email" placeholder="Email Address">
+        </div>
+        <div class="passContainer">
+           <input type="text" id="password" name="password" placeholder="Password">
+           <input type="text" id="confirm" name="confirm" placeholder="Confirm Password">
+        </div>
+        <div class="termsContainer">
+            <div class="checkboxContainer">
+                <input type="checkbox" id="terms" name="terms" value="agree">
+                <label for="terms"> I Agree</label>
+            </div>
+            <p class="agreement">By clicking <span id="span1">Register</span>, you agree to the <a href="#">Terms and Conditions</a> set out by this site, including our Cookie Use.</p>
+        </div>
+        <div class="buttonContainer">
+            <button id='register' class="register-button">Register</button>
+            <button class="signin-button">Sign In</button>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
