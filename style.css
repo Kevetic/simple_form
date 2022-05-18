@@ -77,3 +77,50 @@ form {
     width: 50%;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .nameContainer, .passContainer {
+        display: inline-block;
+        gap: 10px;
+    }
+    .checkboxContainer{
+        display: inline-block;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .termsContainer {
+        display: inline-block;
+        gap: 55px;
+        line-height: 1.3em;
+    }
+    .termsContainer input{
+        display: inline-block;
+        width: auto;
+    }
+    .dataContainer input {
+        box-sizing: content-box;
+    }
+    .agreement {
+        text-align: center;
+    }
+    .buttonContainer {
+        display: inline-block;
+        width: 100%;
+        gap: 10px;
+        margin: 0 auto;
+    }
+    .signin-button {
+        background-color: rgb(106, 201, 106);
+        padding: 20px;
+        font-size: 18px;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+    }
+    form {
+        width: 80%;
+        margin: 0 auto;
+    }
+  }
